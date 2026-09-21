@@ -143,6 +143,16 @@
 				(justify right)
 			)
 		)
+		(pin "CPU_REFCLK_IN" input
+			(at 50.546 63.5 180)
+			(uuid "eb6f4342-9a4f-4dfe-af6d-1640599ce1c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "pcie-board"
 				(path "/8a5e606c-3154-464b-ad38-85f227c87a40"

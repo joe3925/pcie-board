@@ -16,6 +16,17 @@
 		)
 		(uuid "27863bb3-6bc2-4c9c-9fdb-1159c492eb2c")
 	)
+	(hierarchical_label "CPU_REFCLK_IN"
+		(shape input)
+		(at 29.21 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90db9ef9-5db9-4e69-af19-76bd3d201155")
+	)
 	(hierarchical_label "PCIE_RX_N"
 		(shape input)
 		(at 273.05 133.35 0)
