@@ -1,0 +1,63 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "3de27ae1-7e7c-4428-b1b1-6846cb5745e5")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "PCIE_TX_N"
+		(shape output)
+		(at 273.05 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27863bb3-6bc2-4c9c-9fdb-1159c492eb2c")
+	)
+	(hierarchical_label "PCIE_RX_N"
+		(shape input)
+		(at 273.05 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "959bcba3-692e-490d-86bf-4ad97a3a7098")
+	)
+	(hierarchical_label "PCIE_TX_P"
+		(shape output)
+		(at 273.05 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1732ca2-297c-45a1-a705-b8847ec43da0")
+	)
+	(hierarchical_label "CPU_PERST_N"
+		(shape output)
+		(at 273.05 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb97db86-2ea0-40b1-b03d-24e9ef17fd1e")
+	)
+	(hierarchical_label "PCIE_RX_P"
+		(shape input)
+		(at 273.05 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8b8f68a-d2c5-4214-a857-64f92ed7acf6")
+	)
+)

@@ -1,0 +1,306 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "8a5e606c-3154-464b-ad38-85f227c87a40")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 101.346 59.69) (xy 127 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69aa983c-b944-463a-ba28-00fb32c8dd43")
+	)
+	(wire
+		(pts
+			(xy 101.346 50.8) (xy 127 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "951dcdc3-3fc9-4682-bc1d-d3aa98027fce")
+	)
+	(wire
+		(pts
+			(xy 101.346 53.34) (xy 127 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d92c894d-9e22-47b1-8bdb-e319e41e0af1")
+	)
+	(wire
+		(pts
+			(xy 101.346 62.23) (xy 127 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e85a5dae-a8b4-4899-adee-fa3cbd88d665")
+	)
+	(wire
+		(pts
+			(xy 101.346 46.99) (xy 127 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed24e330-9566-486d-b6d0-2fecec1f8130")
+	)
+	(sheet
+		(at 50.546 25.4)
+		(size 50.8 50.546)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "14ed5743-6949-4cb4-9191-a632559ecf8f")
+		(property "Sheetname" "ARM Compute"
+			(at 50.546 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "arm_compute.kicad_sch"
+			(at 50.546 76.5306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PCIE_TX_P" output
+			(at 101.346 62.23 0)
+			(uuid "47ec5e76-6d1e-4c13-a3cf-5611de36ec8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_TX_N" output
+			(at 101.346 59.69 0)
+			(uuid "d3b5bd71-0d70-4494-a188-7c00aec38d98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_RX_P" input
+			(at 101.346 53.34 0)
+			(uuid "ac83b850-8336-4c40-91a2-192ef49669a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_RX_N" input
+			(at 101.346 50.8 0)
+			(uuid "ebd1cce0-a121-4cb5-80c6-fe3b8fe65adc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CPU_PERST_N" output
+			(at 101.346 46.99 0)
+			(uuid "953b7a5a-167f-43aa-a209-1841b8129f35")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pcie-board"
+				(path "/8a5e606c-3154-464b-ad38-85f227c87a40"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 25.4)
+		(size 50.8 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fddd09ad-6733-4834-a3c1-1ac084b86aa6")
+		(property "Sheetname" "PCIe Upstream"
+			(at 127 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcie_upstream.kicad_sch"
+			(at 127 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CPU_PCIE_TX_P" input
+			(at 127 62.23 180)
+			(uuid "bd6e4a27-3c1c-4b1c-aae9-37fb71513367")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CPU_PCIE_TX_N" input
+			(at 127 59.69 180)
+			(uuid "582725a3-b65f-447d-a2ac-39e5c4fbd2c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CPU_PCIE_RX_N" output
+			(at 127 50.8 180)
+			(uuid "de046f79-782e-46bf-8b50-621c47c9db63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CPU_PCIE_RX_P" output
+			(at 127 53.34 180)
+			(uuid "cc665092-7b8d-4d73-a9b3-80386055cf6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CPU_PERST_N" input
+			(at 127 46.99 180)
+			(uuid "4ed5be47-c05c-45f6-a800-59f9136af277")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_PCIE_RX_N" output
+			(at 177.8 59.69 0)
+			(uuid "4c0b53c4-1cbe-4bb3-a4ce-ce5a4752d4c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FPGA_PCIE_RX_P" output
+			(at 177.8 62.23 0)
+			(uuid "7a1f90f9-dcbc-48e4-b119-dcea23f7e0bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FPGA_PCIE_TX_N" input
+			(at 177.8 50.8 0)
+			(uuid "11c2aad3-18ef-444f-9ea3-2294dcd83d30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FPGA_PCIE_TX_P" input
+			(at 177.8 53.34 0)
+			(uuid "e0cce02c-2173-4016-943e-29814a2c4c21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FPGA_PERST_N" output
+			(at 177.8 46.99 0)
+			(uuid "d4fe6306-2630-4fdb-9b93-5c7d3e91a568")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pcie-board"
+				(path "/8a5e606c-3154-464b-ad38-85f227c87a40"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
